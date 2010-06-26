@@ -1,0 +1,3 @@
+*.pyc
+tipfy.ext.chromeframe/dist/*
+tipfy.ext.chromeframe/tipfy.ext.chromeframe.egg-info/*
