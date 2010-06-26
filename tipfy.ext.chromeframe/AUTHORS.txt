@@ -1,0 +1,1 @@
+tipfy.ext.chromeframe is written and maintained by Lee Olayvar <leeolayvar@gmail.com>.
