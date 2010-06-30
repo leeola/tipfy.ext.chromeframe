@@ -10,7 +10,7 @@
 """
 from __future__ import absolute_import
 
-from tipfy import request
+from tipfy import Tipfy
 from genshi import Markup
 
 default_config = {
@@ -47,7 +47,7 @@ default_config = {
 
 class ChromeFrameMiddleware(object):
     def pre_dispatch_handler(self):
-        context = request.context
+        context = Tipfy.request.context
         
         if default_config['gcf_enable_mode'] == 'meta':
             context['gcf_meta'] = Markup('<meta http-equiv="X-UA-Compatible" content="chrome=1">')
