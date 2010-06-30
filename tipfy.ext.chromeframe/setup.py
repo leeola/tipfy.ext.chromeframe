@@ -12,7 +12,7 @@ from setuptools import setup
 
 setup(
     name = 'tipfy.ext.chromeframe',
-    version = '0.0.0',
+    version = '0.0.1',
     license = 'MIT',
     url = 'http://github.com/leeolayvar/tipfy.ext.chromeframe',
     description = 'Implements the server side requirements for Chrome Frame usage in clients.',
